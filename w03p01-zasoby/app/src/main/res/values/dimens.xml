@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_powiekszony">35sp</dimen>
+    <dimen name="margines_nad_przyciskiem">30dp</dimen>
+
+</resources>
