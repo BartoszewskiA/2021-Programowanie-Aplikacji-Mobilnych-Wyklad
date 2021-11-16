@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">w05p04</string>
+    <string-array name="zawartoscSpinnera">
+        <item>Pozycja 1</item>
+        <item>Pozycja 2</item>
+        <item>Pozycja 3</item>
+        <item>Pozycja 4</item>
+    </string-array>
+</resources>
