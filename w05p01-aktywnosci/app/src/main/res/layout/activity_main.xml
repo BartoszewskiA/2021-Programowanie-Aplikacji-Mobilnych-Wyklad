@@ -53,5 +53,26 @@
         app:layout_constraintTop_toBottomOf="@id/button03"
         android:onClick="odbieraniedanychZAktywnosci"
         />
+    <Button
+        android:id="@+id/button05"
+        android:text="Otwieranie adresu intenetowego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button04"
+        android:onClick="otwieranieAdresuInternetowego"
+        />
+
+    <Button
+        android:id="@+id/button06"
+        android:text="Otwieranie adresu geograficznego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button04"
+        android:onClick="otwieranieAdresuGeograficznego"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -56,5 +57,17 @@ public class MainActivity extends AppCompatActivity {
             String s = data.getStringExtra("dana01");
             opis.setText(s);
         }
+    }
+
+    public void otwieranieAdresuInternetowego(View view) {
+        Uri adres = Uri.parse("http://bartoszewski.uniwersytetradom.pl");
+        Intent intencja  = new Intent(Intent.ACTION_VIEW, adres);
+        startActivity(intencja);
+    }
+
+    public void otwieranieAdresuGeograficznego(View view) {
+        Uri adres = Uri.parse("geo:51.405,21.17");
+        Intent intencja  = new Intent(Intent.ACTION_VIEW, adres);
+        startActivity(intencja);
     }
 }
