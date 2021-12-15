@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">w09p01-listy</string>
+    <string-array name="lista">
+        <item>Pozycja 1</item>
+        <item>Pozycja 2</item>
+        <item>Pozycja 3</item>
+        <item>Pozycja 4</item>
+        <item>Pozycja 5</item>
+        <item>Pozycja 6</item>
+        <item>Pozycja 7</item>
+        <item>Pozycja 8</item>
+        <item>Pozycja 9</item>
+        <item>Pozycja 10</item>
+        <item>Pozycja 1</item>
+        <item>Pozycja 2</item>
+        <item>Pozycja 3</item>
+        <item>Pozycja 4</item>
+        <item>Pozycja 5</item>
+        <item>Pozycja 6</item>
+        <item>Pozycja 7</item>
+        <item>Pozycja 8</item>
+        <item>Pozycja 9</item>
+        <item>Pozycja 10</item>
+    </string-array>
+</resources>
