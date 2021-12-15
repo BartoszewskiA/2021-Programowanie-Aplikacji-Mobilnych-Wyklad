@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">test_spinner</string>
+    <string-array name="opis">
+        <item>pole 1</item>
+        <item>pole 2</item>
+        <item>pole 3</item>
+        <item>pole 4</item>
+        <item>pole 5</item>
+    </string-array>
+</resources>
